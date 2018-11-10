@@ -17,26 +17,53 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
   s.homepage         = 'https://github.com/1105938518@qq.com/HotUpdate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1105938518@qq.com' => 'chinacgcgcg@163.com' }
   s.source           = { :git => 'https://github.com/1105938518@qq.com/HotUpdate.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'HotUpdate/Classes/**/*'
+  s.public_header_files = 'HotUpdate/Classes/**/*.h'
+  
+  s.frameworks = 'UIKit', 'CoreLocation','SystemConfiguration','Security','CoreTelephony','AdSupport'
+
+  s.dependency 'Masonry'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'XLForm'
+  s.dependency 'WCDB'
+  s.dependency 'YYWebImage'
+  s.dependency 'YXAlertController'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'SDWebImage'
+  s.dependency 'JSONModel'
+  s.dependency 'MZFormSheetPresentationController'
+  s.dependency 'FDFullscreenPopGesture'
+  s.dependency 'Qiniu'
+  s.dependency 'YYCategories'
+  s.dependency 'SWTableViewCell'
+  
   
   # s.resource_bundles = {
   #   'HotUpdate' => ['HotUpdate/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
+

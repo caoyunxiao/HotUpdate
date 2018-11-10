@@ -1,0 +1,83 @@
+{
+  "name": "HotUpdate",
+  "version": "0.1.0",
+  "summary": "A short description of HotUpdate.",
+  "homepage": "https://github.com/1105938518@qq.com/HotUpdate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1105938518@qq.com": "chinacgcgcg@163.com"
+  },
+  "source": {
+    "git": "https://github.com/1105938518@qq.com/HotUpdate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HotUpdate/Classes/**/*",
+  "public_header_files": "HotUpdate/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "CoreLocation",
+    "SystemConfiguration",
+    "Security",
+    "CoreTelephony",
+    "AdSupport"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "XLForm": [
+
+    ],
+    "WCDB": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "YXAlertController": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "MZFormSheetPresentationController": [
+
+    ],
+    "FDFullscreenPopGesture": [
+
+    ],
+    "Qiniu": [
+
+    ],
+    "YYCategories": [
+
+    ],
+    "SWTableViewCell": [
+
+    ]
+  }
+}
